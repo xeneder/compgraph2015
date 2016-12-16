@@ -1,0 +1,19 @@
+body {
+	background-color: #DDD;
+	margin: 0;
+}
+
+#game {
+	display: block;
+	margin: 0 auto;
+	image-rendering: optimizeSpeed;
+    image-rendering: pixelated;
+    image-rendering: -moz-pixelated;
+    image-rendering: -o-pixelated;
+    image-rendering: -webkit-pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.preload {
+	display: none;
+}
